@@ -1,0 +1,20 @@
+<html>
+<h1>Redirecting, please wait ... </h1>
+<h3> If there is no webpage loaded, please enable popups and redirects. </h3>
+<script>
+
+    // An array of URL's
+    var randURLs = [
+        "https://sites.google.com/view/iot-gamefull/homepage",
+        "https://sites.google.com/view/iot-presentation/homepage",
+        "https://sites.google.com/view/iot-gamecut/homepage"
+    ];
+
+
+    var randURL = Math.floor(Math.random() * randURLs.length);
+
+    window.open(randURLs[randURL],"_self");
+
+</script>
+
+</html>
